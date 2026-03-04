@@ -1,0 +1,39 @@
+﻿[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/cargo/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 234 B
+Progress (2): 234 B | 3.1 kB
+Progress (3): 234 B | 3.1 kB | 4.6 kB
+Progress (3): 234 B | 7.7 kB | 4.6 kB
+Progress (3): 234 B | 7.7 kB | 9.7 kB
+Progress (3): 234 B | 7.7 kB | 14 kB 
+Progress (3): 234 B | 12 kB | 14 kB 
+Progress (3): 234 B | 17 kB | 14 kB
+Progress (3): 234 B | 20 kB | 14 kB
+Progress (3): 234 B | 21 kB | 14 kB
+                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/cargo/maven-metadata.xml (234 B at 325 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 20 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 26 kB/s)
+[INFO] 
+[INFO] ---------< in.co.customer.feedback.sys:StudentFeedbackSystem >----------
+[INFO] Building StudentFeedbackSystem Maven Webapp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- cargo:1.8.5:run (default-cli) @ StudentFeedbackSystem ---
+[INFO] [en2.ContainerRunMojo] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.8.5 for container tomcat9x
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.851 s
+[INFO] Finished at: 2026-03-02T18:20:13+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.cargo:cargo-maven2-plugin:1.8.5:run (default-cli) on project StudentFeedbackSystem: Execution default-cli of goal org.codehaus.cargo:cargo-maven2-plugin:1.8.5:run failed: Failed to create deployable with implementation class org.codehaus.cargo.container.tomcat.TomcatWAR for the parameters (container [id = [tomcat9x]], deployable type [war]).: InvocationTargetException: Failed to parse Tomcat WAR file in [D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\StudentFeedbackSystem.war]: Failed to find file [D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\StudentFeedbackSystem.war]: D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\StudentFeedbackSystem.war (The system cannot find the file specified) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException

@@ -1,0 +1,23 @@
+﻿mysql.exe : mysql: [Warning] 
+Using a password on the command 
+line interface can be insecure.
+At line:1 char:31
++ ... users.sql | & "C:\Program 
+Files\MySQL\MySQL Server 
+8.0\bin\mysql.exe" ...
++                 ~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo          : Not 
+   Specified: (mysql: [Warning..  
+  .an be insecure.:String) [],    
+ RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+ID	name	userName	roleId	RoleName
+1	Admin User	Admin123	1	Admin
+2	HOD User	HOD123	3	HOD
+3	Principal	Principal123	1	Principal
+4	Student One	User123	2	Student
+5	Student Two	User456	2	Student

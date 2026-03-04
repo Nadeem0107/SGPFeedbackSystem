@@ -1,0 +1,8 @@
+﻿
+[INFO] [talledLocalContainer] 
+DEBUG: Password Reset Link: http:/
+/localhost:8080/StudentFeedbackSys
+tem/resetPassword?token=47bc8721-9
+347-4434-9080-d4d6762d67ec
+
+

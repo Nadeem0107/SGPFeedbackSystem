@@ -1,0 +1,33 @@
+mysql.exe : mysql: [Warning] 
+Using a password on the command 
+line interface can be insecure.
+At line:1 char:1
++ & "C:\Program Files\MySQL\MySQL 
+Server 8.0\bin\mysql.exe" -u root 
+-pn ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo          : Not 
+   Specified: (mysql: [Warning..  
+  .an be insecure.:String) [],    
+ RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+Field	Type	Null	Key	Default	Extra
+ID	bigint	NO	PRI	NULL	
+name	varchar(225)	YES		NULL	
+userName	varchar(225)	YES		NULL	
+password	varchar(225)	YES		NULL	
+email	varchar(225)	YES		NULL	
+contactNo	varchar(225)	YES		NULL	
+gender	varchar(225)	YES		NULL	
+dob	date	YES		NULL	
+RoleName	varchar(225)	YES		NULL	
+created_By	varchar(225)	YES		NULL	
+modified_by	varchar(225)	YES		NULL	
+created_datetime	timestamp	YES		NULL	
+modified_datetime	timestamp	YES		NULL	
+ID	name	userName	password	email	contactNo	gender	dob	RoleName	created_By	modified_by	created_datetime	modified_datetime
+2	HOD User	HOD123	Pa$$w0rd!	hod@college.com	0987654321	Female	1985-05-15	HOD	root	root	2026-03-02 14:55:51	2026-03-02 14:55:51

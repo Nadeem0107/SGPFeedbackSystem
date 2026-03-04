@@ -1,6 +1,0 @@
-﻿ID	name	userName	password	email	contactNo	gender	dob	roleId	RoleName	created_By	modified_by	created_datetime	modified_datetime	dept_id	semester
-1	Jaffar Sir	HOD.CS	Pa$$w0rd!	xija@mailinator.com	7454253565	Male	1994-01-12	1	HOD	root	root	2021-12-27 11:20:30	2021-12-27 11:20:30	NULL	NULL
-2	Gouri Shankar	Principal	Pa$$w0rd!	veteqi@mailinator.com	7414253652	Male	1994-01-12	2	Admin	root	root	2021-12-27 13:09:25	2021-12-27 13:09:25	NULL	NULL
-1002	Nadeem	459cs23027	Nadeemm0107	md.nadeem.college@gmail.com	9482017869	Male	2006-01-11	2	Student	root	root	2026-02-12 18:08:23	2026-02-12 18:08:37	NULL	NULL
-1003	ALI	LEE	Pa$$w0rd!	student1@test.com	9482017869	Male	2008-01-06	2	Student	root	root	2026-02-13 14:45:43	2026-02-13 14:45:43	NULL	NULL
-1004	Test Student	Test1234	Test@123	test@test.com	9876543210	Male	2000-01-01	2	Student	root	root	2026-02-24 14:06:58	2026-02-24 14:06:58	NULL	NULL

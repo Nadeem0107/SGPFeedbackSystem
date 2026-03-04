@@ -1,4 +1,0 @@
-U:HOD123|P:Pa$$w0rd!|R:HOD
-U:Principal123|P:Pa$$w0rd!|R:Principal
-U:User123|P:Pa$$w0rd!|R:Student
-U:denuhuluvy|P:Pa$$w0rd!|R:Student

@@ -1,0 +1,19 @@
+﻿mysql.exe : mysql: [Warning] 
+Using a password on the command 
+line interface can be insecure.
+At line:1 char:31
++ ... reate.sql | & "C:\Program 
+Files\MySQL\MySQL Server 
+8.0\bin\mysql.exe" ...
++                 ~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo          : Not 
+   Specified: (mysql: [Warning..  
+  .an be insecure.:String) [],    
+ RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+Table	Create Table
+user	CREATE TABLE `user` (\n  `ID` bigint NOT NULL,\n  `name` varchar(225) DEFAULT NULL,\n  `userName` varchar(225) DEFAULT NULL,\n  `password` varchar(225) DEFAULT NULL,\n  `email` varchar(225) DEFAULT NULL,\n  `contactNo` varchar(225) DEFAULT NULL,\n  `gender` varchar(225) DEFAULT NULL,\n  `dob` date DEFAULT NULL,\n  `roleId` bigint DEFAULT NULL,\n  `RoleName` varchar(225) DEFAULT NULL,\n  `created_By` varchar(225) DEFAULT NULL,\n  `modified_by` varchar(225) DEFAULT NULL,\n  `created_datetime` timestamp NULL DEFAULT NULL,\n  `modified_datetime` timestamp NULL DEFAULT NULL,\n  PRIMARY KEY (`ID`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

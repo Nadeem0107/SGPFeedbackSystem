@@ -1,0 +1,32 @@
+﻿mysql.exe : mysql: [Warning] 
+Using a password on the command 
+line interface can be insecure.
+At line:1 char:29
++ ... _user.sql | & "C:\Program 
+Files\MySQL\MySQL Server 
+8.0\bin\mysql.exe" ...
++                 ~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo          : Not 
+   Specified: (mysql: [Warning..  
+  .an be insecure.:String) [],    
+ RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+Field	Type	Null	Key	Default	Extra
+ID	bigint	NO	PRI	NULL	
+name	varchar(225)	YES		NULL	
+userName	varchar(225)	YES		NULL	
+password	varchar(225)	YES		NULL	
+email	varchar(225)	YES		NULL	
+contactNo	varchar(225)	YES		NULL	
+gender	varchar(225)	YES		NULL	
+dob	date	YES		NULL	
+roleId	bigint	YES		NULL	
+RoleName	varchar(225)	YES		NULL	
+created_By	varchar(225)	YES		NULL	
+modified_by	varchar(225)	YES		NULL	
+created_datetime	timestamp	YES		NULL	
+modified_datetime	timestamp	YES		NULL	

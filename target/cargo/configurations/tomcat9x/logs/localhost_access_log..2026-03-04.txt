@@ -1,0 +1,4 @@
+127.0.0.1 - - [04/Mar/2026:15:05:23 +0530] "GET /cargocpc/index.html HTTP/1.1" 200 124
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:05:32 +0530] "GET /StudentFeedbackSystem HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:05:33 +0530] "GET /StudentFeedbackSystem/ HTTP/1.1" 200 13661
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:05:34 +0530] "GET /resources/demos/style.css HTTP/1.1" 404 682
