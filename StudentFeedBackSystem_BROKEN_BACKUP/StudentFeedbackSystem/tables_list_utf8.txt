@@ -1,0 +1,11 @@
+﻿Tables_in_customerfeedbacksystem
+college_facilities_feedback
+complaint
+course_end_feedback
+feedback
+parents_feedback
+st_endsem_feedback
+st_feedback
+st_midsem_feedback
+teachers
+user

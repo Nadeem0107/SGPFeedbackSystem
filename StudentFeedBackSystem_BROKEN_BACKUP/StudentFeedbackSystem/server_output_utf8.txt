@@ -1,0 +1,147 @@
+﻿[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/cargo/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 234 B
+Progress (2): 234 B | 3.1 kB
+Progress (3): 234 B | 3.1 kB | 4.6 kB
+Progress (3): 234 B | 8.0 kB | 4.6 kB
+Progress (3): 234 B | 8.0 kB | 4.6 kB
+Progress (3): 234 B | 8.0 kB | 10 kB 
+Progress (3): 234 B | 13 kB | 10 kB 
+Progress (3): 234 B | 13 kB | 14 kB
+Progress (3): 234 B | 17 kB | 14 kB
+Progress (3): 234 B | 20 kB | 14 kB
+Progress (3): 234 B | 21 kB | 14 kB
+                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/cargo/maven-metadata.xml (234 B at 43 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 2.6 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 1.5 kB/s)
+[INFO] 
+[INFO] ---------< in.co.customer.feedback.sys:CustomerFeedbackSystem >---------
+[INFO] Building CustomerFeedbackSystem Maven Webapp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- cargo:1.8.5:run (default-cli) @ CustomerFeedbackSystem ---
+[INFO] [en2.ContainerRunMojo] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.8.5 for container tomcat9x
+[INFO] [talledLocalContainer] Tomcat 9.x starting...
+[WARNING] [talledLocalContainer] org.codehaus.cargo.container.ContainerException: Failed to create a Tomcat 9.x standalone configuration: Failed to copy source directory [D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\cargo\installs\tomcat-9.0.83\apache-tomcat-9.0.83/webapps/manager] to [D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\cargo\configurations\tomcat9x/webapps/manager]
+[ERROR] Starting container [org.codehaus.cargo.container.tomcat.Tomcat9xInstalledLocalContainer@f9cab00] failed
+org.codehaus.cargo.container.ContainerException: Failed to create a Tomcat 9.x standalone configuration: Failed to copy source directory [D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\cargo\installs\tomcat-9.0.83\apache-tomcat-9.0.83/webapps/manager] to [D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\cargo\configurations\tomcat9x/webapps/manager]
+    at org.codehaus.cargo.container.spi.configuration.AbstractLocalConfiguration.configure (AbstractLocalConfiguration.java:289)
+    at org.codehaus.cargo.container.spi.configuration.builder.AbstractStandaloneLocalConfigurationWithXMLConfigurationBuilder.configure (AbstractStandaloneLocalConfigurationWithXMLConfigurationBuilder.java:121)
+    at org.codehaus.cargo.container.spi.AbstractLocalContainer.start (AbstractLocalContainer.java:198)
+    at org.codehaus.cargo.maven2.ContainerStartMojo.executeLocalContainerAction (ContainerStartMojo.java:85)
+    at org.codehaus.cargo.maven2.ContainerRunMojo.doExecute (ContainerRunMojo.java:97)
+    at org.codehaus.cargo.maven2.AbstractCargoMojo.execute (AbstractCargoMojo.java:446)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.codehaus.cargo.util.CargoException: Failed to copy source directory [D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\cargo\installs\tomcat-9.0.83\apache-tomcat-9.0.83/webapps/manager] to [D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\cargo\configurations\tomcat9x/webapps/manager]
+    at org.codehaus.cargo.util.DefaultFileHandler.copyDirectory (DefaultFileHandler.java:251)
+    at org.codehaus.cargo.util.DefaultFileHandler.copyDirectory (DefaultFileHandler.java:219)
+    at org.codehaus.cargo.container.tomcat.Tomcat6xStandaloneLocalConfiguration.setupManager (Tomcat6xStandaloneLocalConfiguration.java:80)
+    at org.codehaus.cargo.container.tomcat.internal.AbstractCatalinaStandaloneLocalConfiguration.doConfigure (AbstractCatalinaStandaloneLocalConfiguration.java:169)
+    at org.codehaus.cargo.container.tomcat.Tomcat6xStandaloneLocalConfiguration.doConfigure (Tomcat6xStandaloneLocalConfiguration.java:55)
+    at org.codehaus.cargo.container.tomcat.Tomcat7xStandaloneLocalConfiguration.doConfigure (Tomcat7xStandaloneLocalConfiguration.java:78)
+    at org.codehaus.cargo.container.spi.configuration.AbstractLocalConfiguration.configure (AbstractLocalConfiguration.java:284)
+    at org.codehaus.cargo.container.spi.configuration.builder.AbstractStandaloneLocalConfigurationWithXMLConfigurationBuilder.configure (AbstractStandaloneLocalConfigurationWithXMLConfigurationBuilder.java:121)
+    at org.codehaus.cargo.container.spi.AbstractLocalContainer.start (AbstractLocalContainer.java:198)
+    at org.codehaus.cargo.maven2.ContainerStartMojo.executeLocalContainerAction (ContainerStartMojo.java:85)
+    at org.codehaus.cargo.maven2.ContainerRunMojo.doExecute (ContainerRunMojo.java:97)
+    at org.codehaus.cargo.maven2.AbstractCargoMojo.execute (AbstractCargoMojo.java:446)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.tools.ant.BuildException: D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target\cargo\installs\tomcat-9.0.83\apache-tomcat-9.0.83\webapps\manager does not exist.
+    at org.apache.tools.ant.types.AbstractFileSet.getDirectoryScanner (AbstractFileSet.java:505)
+    at org.apache.tools.ant.taskdefs.Copy.execute (Copy.java:492)
+    at org.codehaus.cargo.util.DefaultFileHandler.copyDirectory (DefaultFileHandler.java:247)
+    at org.codehaus.cargo.util.DefaultFileHandler.copyDirectory (DefaultFileHandler.java:219)
+    at org.codehaus.cargo.container.tomcat.Tomcat6xStandaloneLocalConfiguration.setupManager (Tomcat6xStandaloneLocalConfiguration.java:80)
+    at org.codehaus.cargo.container.tomcat.internal.AbstractCatalinaStandaloneLocalConfiguration.doConfigure (AbstractCatalinaStandaloneLocalConfiguration.java:169)
+    at org.codehaus.cargo.container.tomcat.Tomcat6xStandaloneLocalConfiguration.doConfigure (Tomcat6xStandaloneLocalConfiguration.java:55)
+    at org.codehaus.cargo.container.tomcat.Tomcat7xStandaloneLocalConfiguration.doConfigure (Tomcat7xStandaloneLocalConfiguration.java:78)
+    at org.codehaus.cargo.container.spi.configuration.AbstractLocalConfiguration.configure (AbstractLocalConfiguration.java:284)
+    at org.codehaus.cargo.container.spi.configuration.builder.AbstractStandaloneLocalConfigurationWithXMLConfigurationBuilder.configure (AbstractStandaloneLocalConfigurationWithXMLConfigurationBuilder.java:121)
+    at org.codehaus.cargo.container.spi.AbstractLocalContainer.start (AbstractLocalContainer.java:198)
+    at org.codehaus.cargo.maven2.ContainerStartMojo.executeLocalContainerAction (ContainerStartMojo.java:85)
+    at org.codehaus.cargo.maven2.ContainerRunMojo.doExecute (ContainerRunMojo.java:97)
+    at org.codehaus.cargo.maven2.AbstractCargoMojo.execute (AbstractCargoMojo.java:446)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[INFO] Press Ctrl-C to stop the container...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.426 s
+[INFO] Finished at: 2026-02-19T15:02:14+05:30
+[INFO] ------------------------------------------------------------------------

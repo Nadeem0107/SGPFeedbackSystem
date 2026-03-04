@@ -1,0 +1,102 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< in.co.customer.feedback.sys:CustomerFeedbackSystem >---------
+[INFO] Building CustomerFeedbackSystem Maven Webapp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ CustomerFeedbackSystem ---
+[INFO] Deleting D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ CustomerFeedbackSystem ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ CustomerFeedbackSystem ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 49 source files with javac [debug target 1.8] to target\classes
+[INFO] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/util/HTMLUtility.java: D:\StudentFeedbackSystem\StudentFeedBackSystem\StudentFeedbackSystem\src\main\java\in\co\customer\feedback\sys\util\HTMLUtility.java uses unchecked or unsafe operations.
+[INFO] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/util/HTMLUtility.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CollegeFacilitiesFeedbackListCtl.java:[55,25] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.CollegeFacilitiesFeedbackBean,int,int)
+  location: variable model of type in.co.customer.feedback.sys.model.CollegeFacilitiesFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CollegeFacilitiesFeedbackListCtl.java:[60,41] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.CollegeFacilitiesFeedbackBean)
+  location: variable model of type in.co.customer.feedback.sys.model.CollegeFacilitiesFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CollegeFacilitiesFeedbackListCtl.java:[107,25] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.CollegeFacilitiesFeedbackBean,int,int)
+  location: variable model of type in.co.customer.feedback.sys.model.CollegeFacilitiesFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CourseEndFeedbackListCtl.java:[55,25] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.CourseEndFeedbackBean,int,int)
+  location: variable model of type in.co.customer.feedback.sys.model.CourseEndFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CourseEndFeedbackListCtl.java:[60,41] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.CourseEndFeedbackBean)
+  location: variable model of type in.co.customer.feedback.sys.model.CourseEndFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CourseEndFeedbackListCtl.java:[107,25] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.CourseEndFeedbackBean,int,int)
+  location: variable model of type in.co.customer.feedback.sys.model.CourseEndFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/ParentsFeedbackListCtl.java:[55,25] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.ParentsFeedbackBean,int,int)
+  location: variable model of type in.co.customer.feedback.sys.model.ParentsFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/ParentsFeedbackListCtl.java:[60,41] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.ParentsFeedbackBean)
+  location: variable model of type in.co.customer.feedback.sys.model.ParentsFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/ParentsFeedbackListCtl.java:[107,25] cannot find symbol
+  symbol:   method search(in.co.customer.feedback.sys.bean.ParentsFeedbackBean,int,int)
+  location: variable model of type in.co.customer.feedback.sys.model.ParentsFeedbackModel
+[INFO] 9 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.891 s
+[INFO] Finished at: 2026-02-12T16:23:07+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project CustomerFeedbackSystem: Compilation failure: Compilation failure: 
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CollegeFacilitiesFeedbackListCtl.java:[55,25] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.CollegeFacilitiesFeedbackBean,int,int)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.CollegeFacilitiesFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CollegeFacilitiesFeedbackListCtl.java:[60,41] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.CollegeFacilitiesFeedbackBean)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.CollegeFacilitiesFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CollegeFacilitiesFeedbackListCtl.java:[107,25] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.CollegeFacilitiesFeedbackBean,int,int)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.CollegeFacilitiesFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CourseEndFeedbackListCtl.java:[55,25] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.CourseEndFeedbackBean,int,int)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.CourseEndFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CourseEndFeedbackListCtl.java:[60,41] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.CourseEndFeedbackBean)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.CourseEndFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/CourseEndFeedbackListCtl.java:[107,25] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.CourseEndFeedbackBean,int,int)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.CourseEndFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/ParentsFeedbackListCtl.java:[55,25] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.ParentsFeedbackBean,int,int)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.ParentsFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/ParentsFeedbackListCtl.java:[60,41] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.ParentsFeedbackBean)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.ParentsFeedbackModel
+[ERROR] /D:/StudentFeedbackSystem/StudentFeedBackSystem/StudentFeedbackSystem/src/main/java/in/co/customer/feedback/sys/ctl/ParentsFeedbackListCtl.java:[107,25] cannot find symbol
+[ERROR]   symbol:   method search(in.co.customer.feedback.sys.bean.ParentsFeedbackBean,int,int)
+[ERROR]   location: variable model of type in.co.customer.feedback.sys.model.ParentsFeedbackModel
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

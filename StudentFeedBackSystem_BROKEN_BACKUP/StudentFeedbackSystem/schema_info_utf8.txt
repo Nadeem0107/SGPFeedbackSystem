@@ -1,0 +1,29 @@
+﻿Field	Type	Null	Key	Default	Extra
+ID	bigint	NO	PRI	NULL	
+name	varchar(225)	YES		NULL	
+userName	varchar(225)	YES		NULL	
+password	varchar(225)	YES		NULL	
+email	varchar(225)	YES		NULL	
+contactNo	varchar(225)	YES		NULL	
+gender	varchar(225)	YES		NULL	
+dob	date	YES		NULL	
+roleId	bigint	YES		NULL	
+RoleName	varchar(225)	YES		NULL	
+created_By	varchar(225)	YES		NULL	
+modified_by	varchar(225)	YES		NULL	
+created_datetime	timestamp	YES		NULL	
+modified_datetime	timestamp	YES		NULL	
+Field	Type	Null	Key	Default	Extra
+ID	bigint	NO	PRI	NULL	
+Name	varchar(225)	YES		NULL	
+price	varchar(225)	YES		NULL	
+Description	varchar(1500)	YES		NULL	
+Image	varchar(755)	YES		NULL	
+created_by	varchar(225)	YES		NULL	
+modified_by	varchar(225)	YES		NULL	
+created_datetime	timestamp	YES		NULL	
+modified_datetime	timestamp	YES		NULL	
+Table	Create Table
+user	CREATE TABLE `user` (\n  `ID` bigint NOT NULL,\n  `name` varchar(225) DEFAULT NULL,\n  `userName` varchar(225) DEFAULT NULL,\n  `password` varchar(225) DEFAULT NULL,\n  `email` varchar(225) DEFAULT NULL,\n  `contactNo` varchar(225) DEFAULT NULL,\n  `gender` varchar(225) DEFAULT NULL,\n  `dob` date DEFAULT NULL,\n  `roleId` bigint DEFAULT NULL,\n  `RoleName` varchar(225) DEFAULT NULL,\n  `created_By` varchar(225) DEFAULT NULL,\n  `modified_by` varchar(225) DEFAULT NULL,\n  `created_datetime` timestamp NULL DEFAULT NULL,\n  `modified_datetime` timestamp NULL DEFAULT NULL,\n  PRIMARY KEY (`ID`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+Table	Create Table
+teachers	CREATE TABLE `teachers` (\n  `ID` bigint NOT NULL,\n  `Name` varchar(225) DEFAULT NULL,\n  `price` varchar(225) DEFAULT NULL,\n  `Description` varchar(1500) DEFAULT NULL,\n  `Image` varchar(755) DEFAULT NULL,\n  `created_by` varchar(225) DEFAULT NULL,\n  `modified_by` varchar(225) DEFAULT NULL,\n  `created_datetime` timestamp NULL DEFAULT NULL,\n  `modified_datetime` timestamp NULL DEFAULT NULL,\n  PRIMARY KEY (`ID`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

@@ -1,0 +1,15 @@
+﻿ADMIN 200 http://localhost:8080/CustomerFeedbackSystem/ctl/userList
+ADMIN 200 http://localhost:8080/CustomerFeedbackSystem/ctl/teacherList
+ADMIN 200 http://localhost:8080/CustomerFeedbackSystem/ctl/collegeFacilitiesFeedbackList
+ADMIN 200 http://localhost:8080/CustomerFeedbackSystem/ctl/courseEndFeedbackList
+ADMIN 200 http://localhost:8080/CustomerFeedbackSystem/ctl/parentsFeedbackList
+ADMIN 200 http://localhost:8080/CustomerFeedbackSystem/ctl/complaintList
+ADMIN 200 http://localhost:8080/CustomerFeedbackSystem/ctl/midSemFeedbackList
+ADMIN 200 http://localhost:8080/CustomerFeedbackSystem/ctl/endSemFeedbackList
+STUDENT 200 http://localhost:8080/CustomerFeedbackSystem/ctl/collegeFacilitiesFeedback
+STUDENT 200 http://localhost:8080/CustomerFeedbackSystem/ctl/courseEndFeedback
+STUDENT 200 http://localhost:8080/CustomerFeedbackSystem/ctl/parentsFeedback
+STUDENT 200 http://localhost:8080/CustomerFeedbackSystem/ctl/teachers
+STUDENT 200 http://localhost:8080/CustomerFeedbackSystem/ctl/complaint
+STUDENT 200 http://localhost:8080/CustomerFeedbackSystem/ctl/midSemFeedback
+STUDENT 200 http://localhost:8080/CustomerFeedbackSystem/ctl/endSemFeedback

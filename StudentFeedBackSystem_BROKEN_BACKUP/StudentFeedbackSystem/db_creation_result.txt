@@ -1,0 +1,13 @@
+========================================
+Creating Complaint Table...
+========================================
+log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+? Complaint table created successfully!
+========================================
+
+Next steps:
+1. Build the project: mvn clean install
+2. Run the application: mvn jetty:run
+3. Access at: http://localhost:8080/CustomerFeedbackSystem
+========================================
